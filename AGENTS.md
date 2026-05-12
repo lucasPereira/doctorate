@@ -9,7 +9,7 @@ The goal is to let AI agents work with the dissertation, papers, framework code,
 ## Workspace Layout
 
 - `a-reuse-oriented-framework-for-automated-test-code-refactoring/` is the IEEE Access manuscript project for the paper "A Reuse-Oriented Framework for Automated Test Code Refactoring". It has its own `AGENTS.md`; read and follow it before editing anything inside that submodule.
-- `roza/` is the Roza framework being developed for the thesis. It is a Java 11 Gradle project for automated reuse-oriented test code refactoring.
+- `roza/` is the Róża framework being developed for the thesis. It is a Java 11 Gradle project for automated reuse-oriented test code refactoring.
 - `doctorate-examples/` contains small example programs and tests used in papers and the thesis. It is a Gradle Kotlin/JVM 17 project with Kotlin and Java examples.
 - `thesis/` is expected to become a future submodule for the dissertation, but it does not exist yet.
 
