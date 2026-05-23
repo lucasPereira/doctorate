@@ -1,4 +1,6 @@
-# AGENTS.md
+# Doctorate workspace guidance
+
+This file gives agents the workspace-level context needed to choose the right subproject and use the paper terminology consistently.
 
 ## Project purpose
 
@@ -6,21 +8,24 @@ This repository groups Lucas Pereira's doctorate work in a submodule-based works
 
 ## Workspace layout
 
-- `a-reuse-oriented-framework-for-automated-test-code-refactoring/` — IEEE Access manuscript for "A Reuse-Oriented Framework for Automated Test Code Refactoring".
-- `roza/` — Róża framework (Java 11, Gradle) for automated reuse-oriented test code refactoring.
-- `doctorate-examples/` — small Kotlin/Java examples and tests for papers and the thesis (Gradle, JVM 17).
+The top-level directories are independent projects. Work inside the submodule named by the user whenever possible.
+
+- `an-architecture-for-automatic-test-code-refactoring/` — IEEE Access manuscript.
+- `roza/` — Róża framework for automatic reuse-oriented test code refactoring.
+- `doctorate-examples/` — small Kotlin/Java examples and tests for papers and the thesis.
 
 ## Workflow
 
-- Prefer the submodule the user named. Before editing, follow that project's local `AGENTS.md`, `.cursor/rules/`, `README.md`, or build files; they override this file.
+Project-local instructions override this file. Before editing, read the named submodule's local `AGENTS.md`, `.cursor/rules/`, `README.md`, or build files when they are relevant.
 
 ## Definitions
 
-These definitions must be used consistently throughout the workspace.
+Use these names consistently when discussing the manuscript, architecture, and framework.
 
-- Camus architecture: a pipeline architecture for refactoring test code.
-- Róża framework: an extensible framework that instantiates the Camus architecture by refactoring test classes through implicit setup.
+**Camus architecture**. A pipeline architecture for refactoring test code.
 
-Preferred sentence:
+**Róża framework**. An extensible framework that instantiates the Camus architecture by refactoring test classes through the implicit setup strategy.
 
-> We propose (1) the Camus architecture, a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through implicit setup.
+**Use the preferred proposal sentence when a compact definition is needed:**
+
+> We propose (1) the Camus architecture, a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy.
