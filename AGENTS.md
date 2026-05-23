@@ -22,10 +22,8 @@ Project-local instructions override this file. Before editing, read the named su
 
 Use these names consistently when discussing the manuscript, architecture, and framework.
 
-**Camus architecture**. A pipeline architecture for refactoring test code.
+**Define Camus architecture consistently.** Use _"a pipeline architecture for refactoring test code."_
 
-**Róża framework**. An extensible framework that instantiates the Camus architecture by refactoring test classes through the implicit setup strategy.
+**Define Róża framework consistently.** Use _"an extensible framework that instantiates the Camus architecture by refactoring test classes through the implicit setup strategy."_
 
-**Use the preferred proposal sentence when a compact definition is needed:**
-
-> We propose (1) the Camus architecture, a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy.
+**Use the preferred proposal sentence for compact definitions.** _"We propose (1) the Camus architecture, a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy."_
