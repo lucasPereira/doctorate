@@ -16,9 +16,11 @@ This repository groups Lucas Pereira's doctorate work in a submodule-based works
 
 ## Definitions
 
-- Camus Architecture: a pipeline architecture for refactoring test code.
-- Róża Framework: an extensible framework that instantiates the Camus Architecture by refactoring test classes through implicit setup.
+These definitions must be used consistently throughout the workspace.
+
+- Camus architecture: a pipeline architecture for refactoring test code.
+- Róża framework: an extensible framework that instantiates the Camus architecture by refactoring test classes through implicit setup.
 
 Preferred sentence:
 
-> We propose (1) the Camus Architecture, a pipeline architecture for refactoring test code, and (2) the Róża Framework, an extensible framework that instantiates this architecture by refactoring test classes through implicit setup.
+> We propose (1) the Camus architecture, a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through implicit setup.
