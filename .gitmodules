@@ -7,6 +7,3 @@
 [submodule "a-reuse-oriented-framework-for-automated-test-code-refactoring"]
 	path = a-reuse-oriented-framework-for-automated-test-code-refactoring
 	url = git@github.com:lucasPereira/a-reuse-oriented-framework-for-automated-test-code-refactoring.git
-[submodule "thesis"]
-	path = thesis
-	url = git@github.com:lucasPereira/thesis.git
