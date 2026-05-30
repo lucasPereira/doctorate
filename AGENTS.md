@@ -10,8 +10,8 @@ This repository groups Lucas Pereira's doctorate work in a submodule-based works
 
 The top-level directories are independent projects. Work inside the submodule named by the user whenever possible.
 
-- `an-architecture-for-automatic-test-code-refactoring/` — IEEE Access manuscript.
-- `roza/` — Róża framework for automatic reuse-oriented test code refactoring.
+- `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/` — IEEE Access manuscript.
+- `roza/` — Róża framework for automatic test code refactoring.
 - `doctorate-examples/` — small Kotlin/Java examples and tests for papers and the thesis.
 
 ## Workflow
@@ -22,8 +22,8 @@ Project-local instructions override this file. Before editing, read the named su
 
 Use these names consistently when discussing the manuscript, architecture, and framework.
 
-**Define Camus architecture consistently.** Use _"a pipeline architecture for refactoring test code."_
+**Define the architecture consistently.** Use _"a pipeline architecture for refactoring test code."_
 
-**Define Róża framework consistently.** Use _"an extensible framework that instantiates the Camus architecture by refactoring test classes through the implicit setup strategy."_
+**Define Róża framework consistently.** Use _"an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy."_
 
-**Use the preferred proposal sentence for compact definitions.** _"We propose (1) the Camus architecture, a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy."_
+**Use the preferred proposal sentence for compact definitions.** _"We propose (1) a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy."_
