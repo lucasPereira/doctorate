@@ -4,6 +4,6 @@
 [submodule "roza"]
 	path = roza
 	url = git@github.com:lucasPereira/roza.git
-[submodule "an-architecture-for-automatic-test-code-refactoring"]
-	path = an-architecture-for-automatic-test-code-refactoring
-	url = git@github.com:lucasPereira/an-architecture-for-automatic-test-code-refactoring.git
+[submodule "an-architecture-for-automatic-test-setup-code-refactoring-ieee-access"]
+	path = an-architecture-for-automatic-test-setup-code-refactoring-ieee-access
+	url = git@github.com:lucasPereira/an-architecture-for-automatic-test-setup-code-refactoring-ieee-access.git
