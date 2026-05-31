@@ -1,6 +1,6 @@
 # Doctorate workspace guidance
 
-This file gives agents the workspace-level context needed to choose the right subproject and use the paper terminology consistently.
+This file gives agents the workspace-level context needed to choose the right subproject and use the work terminology consistently.
 
 ## Project purpose
 
@@ -20,10 +20,10 @@ Project-local instructions override this file. Before editing, read the named su
 
 ## Definitions
 
-Use these names consistently when discussing the manuscript, architecture, and framework.
+**Treatment.** Test placement is treated as a global refactoring task: redistribute existing tests into classes that increase shared setup code without changing observed test behavior.
 
-**Define the architecture consistently.** Use _"a pipeline architecture for refactoring test code."_
+**Architecture.** A pipeline architecture for refactoring test code.
 
-**Define Róża framework consistently.** Use _"an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy."_
+**Róża.** An extensible framework that instantiates the pipeline architecture by refactoring test classes through the implicit setup strategy.
 
-**Use the preferred proposal sentence for compact definitions.** _"We propose (1) a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy."_
+**Proposal.** _"We propose (1) a pipeline architecture for refactoring test code, and (2) the Róża framework, an extensible framework that instantiates this architecture by refactoring test classes through the implicit setup strategy."_
