@@ -1,11 +1,7 @@
 ---
 name: import-bib-tex
-description: >-
-  Import a BibTeX reference into a .bib file with standardized keys,
-  tab-indented formatting, year/title ordering, and matching updates in
-  the paired .tex file. Use when the user pastes or provides a BibTeX entry,
-  asks to add a reference, import bibliography, or normalize a .bib file.
-disable-model-invocation: true
+description: Import a BibTeX reference into a .bib file with standardized keys, tab-indented formatting, year/title ordering, and matching updates in the paired .tex file. Use when the user pastes or provides a BibTeX entry, asks to add a reference, import bibliography, or normalize a .bib file.
+disable-model-invocation: false
 ---
 
 # Import BibTeX

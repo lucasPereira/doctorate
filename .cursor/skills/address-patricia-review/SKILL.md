@@ -1,6 +1,7 @@
 ---
 name: address-patricia-review
 description: Resolve Patricia advisor review notes marked with \patricia{...} in LaTeX manuscripts. Apply approved text changes, wrap only modified spans in \lucas{...}, and remove the resolved \patricia{...}. Use when the user asks to address, fix, apply, or modify text for a Patricia comment, Patricia review, or \patricia markup.
+disable-model-invocation: true
 ---
 
 # Address Patricia review

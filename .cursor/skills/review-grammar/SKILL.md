@@ -1,6 +1,7 @@
 ---
 name: review-grammar
 description: Review and correct grammar, spelling, punctuation, agreement, clarity, captions, tables, figures, and code-snippet prose in academic writing in English or Brazilian Portuguese. Use when the user asks for a grammar review, proofreading, language polish, ortografia, or corrections to LaTeX manuscript text.
+disable-model-invocation: false
 ---
 
 # Review grammar

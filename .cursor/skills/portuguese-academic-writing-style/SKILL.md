@@ -1,6 +1,7 @@
 ---
 name: portuguese-academic-writing-style
 description: Generates and revises Brazilian Portuguese academic prose in a formal thesis-and-article style. Use when writing or editing pt-BR text for thesis, dissertation, qualification, seminar report, abstract, introduction, and other academic sections in LaTeX or plain text.
+disable-model-invocation: false
 ---
 
 # Portuguese academic writing style
