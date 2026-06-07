@@ -74,6 +74,8 @@ FIELD_ORDER: dict[str, list[str]] = {
 
 DEFAULT_FIELD_ORDER = ["title", "author", "year"]
 
+EXCLUDED_FIELDS = frozenset({"abstract"})
+
 ENTRY_RE = re.compile(
     r"@(?P<type>\w+)\s*\{\s*(?P<key>[^,\s]+)\s*,(?P<body>.*?)^\}",
     re.MULTILINE | re.DOTALL | re.IGNORECASE,
@@ -172,6 +174,8 @@ def parse_entry_block(raw: str) -> BibEntry:
 
     for field_match in FIELD_RE.finditer(body):
         name = field_match.group("name").lower()
+        if name in EXCLUDED_FIELDS:
+            continue
         value = field_match.group("brace")
         if value is None:
             value = field_match.group("quote") or ""

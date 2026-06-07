@@ -38,7 +38,7 @@ The script needs explicit paths. When the user names them, use those paths. Othe
 
 ## House standard
 
-Every import rewrites the entire `.bib`, not only the new entry. Entries use tab indentation, a fixed field order per type, and sort by year (newest first) then title. Citation keys follow `{surname}:{year}` for one author or `{surname}:etal:{year}` for two or more; distinct works that would share a key get suffixes `:a`, `:b`, `:c`, and so on. After any rename, update matching `\cite...{key}` commands in the paired `.tex`. Field order, templates, key algorithm, and citation patterns: [reference.md](reference.md). Worked cases: [examples.md](examples.md).
+Every import rewrites the entire `.bib`, not only the new entry. Entries use tab indentation, a fixed field order per type, and sort by year (newest first) then title. Drop the `abstract` field whenever it is present; do not emit it in the normalized output. Citation keys follow `{surname}:{year}` for one author or `{surname}:etal:{year}` for two or more; distinct works that would share a key get suffixes `:a`, `:b`, `:c`, and so on. After any rename, update matching `\cite...{key}` commands in the paired `.tex`. Field order, templates, key algorithm, and citation patterns: [reference.md](reference.md). Worked cases: [examples.md](examples.md).
 
 ## Failure handling
 

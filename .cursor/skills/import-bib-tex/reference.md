@@ -12,9 +12,13 @@ Formatting rules, key generation, and the manual fallback. Workflow and triggers
 
 **Same work.** When `title` and `year` match an existing entry, keep the existing key; do not duplicate.
 
+## Excluded fields
+
+Never include `abstract`. Remove it from incoming entries and from existing entries during normalize.
+
 ## Field order by entry type
 
-Emit only fields present on the entry. Unknown fields go last, sorted alphabetically by field name.
+Emit only fields present on the entry after exclusions. Unknown fields go last, sorted alphabetically by field name.
 
 | Type | Field order |
 | --- | --- |
@@ -86,6 +90,7 @@ Matches `\cite{key}`, `\citeonline{key}`, `natbib` variants such as `\citep` and
 ## Manual normalize checklist
 
 - [ ] Parse incoming entry; reject if `@type` or required fields missing.
+- [ ] Remove `abstract` from every entry.
 - [ ] Load all existing entries from the target `.bib`.
 - [ ] Assign key per [Citation keys](#citation-keys); resolve collisions with `:a`, `:b`, `:c`.
 - [ ] Merge or skip if same work already present.

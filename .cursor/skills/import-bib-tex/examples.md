@@ -43,6 +43,37 @@ Main file `qualification/qualification.tex` contains `\bibliography{qualificatio
 }
 ```
 
+## Strip abstract from incoming entry
+
+**Input**
+
+```bibtex
+@article{a5ca128a-76cb-3df0-bd72-44b50e076e59,
+  author = {Yang Yang and Colin Onita and Xihui Zhang and Jasbir Dhaliwal},
+  title = {TESTQUAL: Conceptualizing Software Testing as a Service},
+  journal = {e-Service Journal},
+  volume = {7},
+  number = {2},
+  pages = {46--65},
+  year = {2011},
+  abstract = {ABSTRACT Software testing has emerged as a distinct and critical component...}
+}
+```
+
+**Output fragment** (no `abstract` field)
+
+```bibtex
+@article{yang:etal:2011,
+	title={TESTQUAL: Conceptualizing Software Testing as a Service},
+	author={Yang Yang and Colin Onita and Xihui Zhang and Jasbir Dhaliwal},
+	year={2011},
+	journal={e-Service Journal},
+	volume={7},
+	number={2},
+	pages={46--65}
+}
+```
+
 ## New multi-author inproceedings
 
 **Input**
