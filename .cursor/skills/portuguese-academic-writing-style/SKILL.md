@@ -28,7 +28,7 @@ Produce formal, continuous, argumentative academic prose: developed paragraphs, 
 
 **En-dash allowed only** when expanding English acronyms: `System Under Test – SUT`, `Java Virtual Machine – JVM`.
 
-**Latin abbreviations.** Use `e.g.` for example and `i.e.` for that is, instead of `por exemplo` and `isto é`/`ou seja`, unless the user asks otherwise.
+**Latin abbreviations.** Use `e.g.` for example and `i.e.` for that is, instead of `por exemplo` and `isto é`/`ou seja`, unless the user asks otherwise. Place them inside parentheses with the material they introduce: `(e.g., ...)` and `(i.e., ...)`. Do not insert them as comma asides in the running sentence.
 
 ## Connectors and flow
 
@@ -61,19 +61,19 @@ Palavras-chave: teste de software; refatoração; reuso de código; métrica de 
 
 Keep terminology consistent within the document. For this research topic, prefer:
 
-| Prefer | Avoid |
-| ------ | ----- |
-| código de teste | código de testes (except for occasional grammatical agreement) |
-| reuso | reutilização |
-| duplicação | duplicidade |
-| refatoração | generic reformulation |
-| classe de teste/classes de teste | classe de testes |
-| configuração de acessórios | setup de fixtures (without translation on first occurrence) |
-| configuração implícita | implicit setup (after defining the Portuguese term) |
-| manutenibilidade | capacidade de manutenção (unless the distinction is needed) |
-| métricas de similaridade | medidas de similaridade |
-| algoritmos de agrupamento | clustering (alone, untranslated) |
-| framework | quadro, estrutura |
+| Prefer                           | Avoid                                                          |
+| -------------------------------- | -------------------------------------------------------------- |
+| código de teste                  | código de testes (except for occasional grammatical agreement) |
+| reuso                            | reutilização                                                   |
+| duplicação                       | duplicidade                                                    |
+| refatoração                      | generic reformulation                                          |
+| classe de teste/classes de teste | classe de testes                                               |
+| configuração de acessórios       | setup de fixtures (without translation on first occurrence)    |
+| configuração implícita           | implicit setup (after defining the Portuguese term)            |
+| manutenibilidade                 | capacidade de manutenção (unless the distinction is needed)    |
+| métricas de similaridade         | medidas de similaridade                                        |
+| algoritmos de agrupamento        | clustering (alone, untranslated)                               |
+| framework                        | quadro, estrutura                                              |
 
 **English terms** (`framework`, `setup`, `fixture`, `tear down`) may stay in English when they are established technical terms; on the first relevant occurrence, give the Portuguese equivalent in parentheses or in the immediate definition.
 
