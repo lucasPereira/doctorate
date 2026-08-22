@@ -45,6 +45,7 @@ The `artifacts/` directory stores PDF outputs from doctorate milestones. These f
 | `progress-seminar-2025.pdf`                  | Progress seminar document after returning to the doctorate.                 |
 | `progress-seminar-2025-presentation.pdf`     | Progress seminar slides after returning to the doctorate.                   |
 | `progress-seminar-2025-notes-carina.pdf`     | Committee notes from the progress seminar after returning to the doctorate. |
+| `lccss-a-similarity-metric-for-identifying-similar-test-code.pdf` | SBCARS 2020 paper proposing the LCCSS similarity metric. |
 
 ## Workflow
 
