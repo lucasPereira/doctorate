@@ -1,6 +1,6 @@
 ---
 name: write-from-references
-description: Drafts academic LaTeX prose by searching all .tex files in qualification/ and the IEEE Access submodule, all PDFs in artifacts/, and resolving citations through import-bib-tex. Use when the user asks to write or draft a section from prior doctorate materials and wants citations included.
+description: Drafts academic LaTeX prose by searching all .tex files in qualifying-exam/ and the IEEE Access submodule, all PDFs in artifacts/, and resolving citations through import-bib-tex. Use when the user asks to write or draft a section from prior doctorate materials and wants citations included.
 disable-model-invocation: true
 ---
 
@@ -14,7 +14,7 @@ Read-only sources for wording, structure, claims, and citation keys. Corpus sear
 
 | Location                                                                 | Include              |
 | ------------------------------------------------------------------------ | -------------------- |
-| `qualification/`                                                         | Every `*.tex` file   |
+| `qualifying-exam/`                                                       | Every `*.tex` file   |
 | `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/` | Every `*.tex` file   |
 | `artifacts/`                                                             | Every `*.pdf` file   |
 
@@ -33,7 +33,7 @@ Also read paired `.bib` files in the LaTeX subprojects.
 Collect before drafting. Ask only for what is missing.
 
 - **Topic or section.** e.g. contextualização, problema de pesquisa, objetivos.
-- **Target file.** e.g. `qualification/introduction.tex`. Infer from context when omitted.
+- **Target file.** e.g. `qualifying-exam/chapters/1-introduction.tex`. Infer from context when omitted.
 - **Language.** Infer from target, corpus, or user; ask when unclear.
 - **Scope.** Length, subsections, claims to keep or omit, other constraints.
 

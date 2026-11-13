@@ -10,7 +10,7 @@ Adds a BibTeX entry to a LaTeX project's `.bib` file, normalizes the whole bibli
 
 ## Workflow
 
-Resolve the target `.bib` and paired `.tex` first (see [Resolving target files](#resolving-target-files)). Run commands from the workspace root, or pass paths relative to it (e.g. `qualification/qualification.bib`).
+Resolve the target `.bib` and paired `.tex` first (see [Resolving target files](#resolving-target-files)). Run commands from the workspace root, or pass paths relative to it (e.g. `qualifying-exam/qualifying-exam.bib`).
 
 1. Read both files.
 2. Run the import script with the user's raw `@type{...}` block:

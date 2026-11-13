@@ -15,7 +15,7 @@ python3 .cursor/skills/import-bib-tex/scripts/import-bibtex.py \
 
 **Infer from `\bibliography{...}`**
 
-Main file `qualification/qualification.tex` contains `\bibliography{qualification}` → use `qualification/qualification.bib` and `qualification/qualification.tex`.
+Main file `qualifying-exam/qualifying-exam.tex` contains `\bibliography{qualifying-exam}` → use `qualifying-exam/qualifying-exam.bib` and `qualifying-exam/qualifying-exam.tex`.
 
 ## New single-author book
 

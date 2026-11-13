@@ -6,7 +6,7 @@ Corpus search, citation resolution, and terminology. Workflow: [SKILL.md](SKILL.
 
 Follow [Reference corpus](SKILL.md#reference-corpus) in [SKILL.md](SKILL.md) for which paths to include. Then:
 
-1. Glob all `*.tex` under `qualification/` and `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/`.
+1. Glob all `*.tex` under `qualifying-exam/` and `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/`.
 2. Glob all `*.pdf` under `artifacts/`.
 3. Grep for section titles, keywords, and `\cite{...}` keys related to the topic.
 4. Read matching regions in every hit file, not only the first match.
@@ -17,7 +17,7 @@ Partial reads are fine; do not skip a file without checking relevance.
 
 | Directory | Paired `.bib` |
 | --- | --- |
-| `qualification/` | `qualification/qualification.bib` |
+| `qualifying-exam/` | `qualifying-exam/qualifying-exam.bib` |
 | `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/` | `bibliography.bib` |
 
 ## Artifacts
@@ -56,7 +56,7 @@ Resolve each work in this order:
 
 ### Citation commands by target
 
-For `qualification/`, use `abntex2cite`: `\citeonline{key}` for narrative mentions, `\cite{key}` for parenthetical references. For the IEEE Access submodule, follow `\cite{}` usage in that manuscript.
+For `qualifying-exam/`, use `abntex2cite`: `\citeonline{key}` for narrative mentions, `\cite{key}` for parenthetical references. For the IEEE Access submodule, follow `\cite{}` usage in that manuscript.
 
 ## Terminology
 

@@ -7,9 +7,9 @@
 [submodule "an-architecture-for-automatic-test-setup-code-refactoring-ieee-access"]
 	path = an-architecture-for-automatic-test-setup-code-refactoring-ieee-access
 	url = git@github.com:lucasPereira/an-architecture-for-automatic-test-setup-code-refactoring-ieee-access.git
-[submodule "qualification"]
-	path = qualification
-	url = git@github.com:lucasPereira/qualification.git
+[submodule "qualifying-exam"]
+	path = qualifying-exam
+	url = git@github.com:lucasPereira/qualifying-exam.git
 [submodule "an-architecture-for-automatic-test-setup-code-refactoring-sn-computer-science"]
 	path = an-architecture-for-automatic-test-setup-code-refactoring-sn-computer-science
 	url = git@github.com:lucasPereira/an-architecture-for-automatic-test-setup-code-refactoring-sn-computer-science.git

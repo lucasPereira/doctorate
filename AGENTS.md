@@ -16,7 +16,7 @@ Lucas started the doctorate in an earlier cycle, reached the progress seminar (_
 
 **Return (circa 2024).** A new progress seminar marks the restart. Its slides, document, and committee notes are also under [Artifacts](#artifacts).
 
-**Current work.** Active writing and implementation happen in the subprojects below, especially `qualification/` for the qualification document and `roza/` for the framework.
+**Current work.** Active writing and implementation happen in the subprojects below, especially `qualifying-exam/` for the qualifying exam document and `roza/` for the framework.
 
 ## Workspace layout
 
@@ -27,14 +27,14 @@ The top-level directories are independent projects unless noted otherwise.
 | `roza/`                                                                  | Róża framework for automatic test code refactoring.                  |
 | `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/` | IEEE Access manuscript on the pipeline architecture.                 |
 | `doctorate-examples/`                                                    | Small Kotlin/Java examples and tests used in papers and thesis text. |
-| `qualification/`                                                         | Active LaTeX project for the qualification document.                 |
+| `qualifying-exam/`                                                       | Active LaTeX project for the qualifying exam document.               |
 | `artifacts/`                                                             | Read-only PDFs from past doctorate events.                           |
 
-**Submodule registration.** `roza/`, `doctorate-examples/`, `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/`, and `qualification/` are registered in `.gitmodules`. `artifacts/` is a plain directory at the umbrella root.
+**Submodule registration.** `roza/`, `doctorate-examples/`, `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/`, and `qualifying-exam/` are registered in `.gitmodules`. `artifacts/` is a plain directory at the umbrella root.
 
 ## Artifacts
 
-The `artifacts/` directory stores PDF outputs from doctorate milestones. These files are the reference base for the next qualification, papers, and the thesis: use them to recover earlier wording, structure, and committee feedback. Do not edit them in place; regenerate or revise content in the corresponding active project (`qualification/`, paper repos, etc.).
+The `artifacts/` directory stores PDF outputs from doctorate milestones. These files are the reference base for the next qualifying exam, papers, and the thesis: use them to recover earlier wording, structure, and committee feedback. Do not edit them in place; regenerate or revise content in the corresponding active project (`qualifying-exam/`, paper repos, etc.).
 
 | File                                         | Origin                                                                      |
 | -------------------------------------------- | --------------------------------------------------------------------------- |
@@ -52,7 +52,7 @@ The `artifacts/` directory stores PDF outputs from doctorate milestones. These f
 
 Project-local instructions override this file. Before editing, read the named project's local `AGENTS.md`, `.cursor/skills/`, `README.md`, or build files when they are relevant.
 
-When the user names a milestone (qualification, progress seminar, article, framework), default to the matching directory above rather than `artifacts/`.
+When the user names a milestone (qualifying exam, qualification, progress seminar, article, framework), default to the matching directory above rather than `artifacts/`.
 
 ## Definitions
 
