@@ -50,7 +50,7 @@ The `artifacts/` directory stores PDF outputs from doctorate milestones. These f
 
 ## Workflow
 
-Project-local instructions override this file. Before editing, read the named project's local `AGENTS.md`, `.cursor/skills/`, `README.md`, or build files when they are relevant.
+Project-local instructions override this file. Before editing, read the named project's local `AGENTS.md`, `.agents/skills/`, `README.md`, or build files when they are relevant.
 
 When the user names a milestone (qualifying exam, qualification, progress seminar, article, framework), default to the matching directory above rather than `artifacts/`.
 

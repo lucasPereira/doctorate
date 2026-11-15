@@ -16,7 +16,7 @@ Resolve the target `.bib` and paired `.tex` first (see [Resolving target files](
 2. Run the import script with the user's raw `@type{...}` block:
 
 ```bash
-python3 .cursor/skills/import-bib-tex/scripts/import-bibtex.py \
+python3 .agents/skills/import-bib-tex/scripts/import-bibtex.py \
   --bib <bib> \
   --tex <tex> \
   --entry "$(cat <<'EOF'
@@ -34,7 +34,7 @@ Pass `--normalize-only` to reformat an existing `.bib` without adding an entry. 
 
 ## Resolving target files
 
-The script needs explicit paths. When the user names them, use those paths. Otherwise, locate the main `.tex` (contains `\documentclass`) and the `.bib` it cites through `\bibliography{...}` or `\addbibresource{...}` without the extension. If more than one project matches, ask the user which pair to use. The script lives at `.cursor/skills/import-bib-tex/scripts/import-bibtex.py` relative to the workspace root. Path resolution examples: [examples.md](examples.md).
+The script needs explicit paths. When the user names them, use those paths. Otherwise, locate the main `.tex` (contains `\documentclass`) and the `.bib` it cites through `\bibliography{...}` or `\addbibresource{...}` without the extension. If more than one project matches, ask the user which pair to use. The script lives at `.agents/skills/import-bib-tex/scripts/import-bibtex.py` relative to the workspace root. Path resolution examples: [examples.md](examples.md).
 
 ## House standard
 

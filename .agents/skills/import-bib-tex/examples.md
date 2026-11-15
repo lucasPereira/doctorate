@@ -7,7 +7,7 @@ Run commands from the LaTeX project root. Replace `<bib>` and `<tex>` with the r
 **User names files**
 
 ```bash
-python3 .cursor/skills/import-bib-tex/scripts/import-bibtex.py \
+python3 .agents/skills/import-bib-tex/scripts/import-bibtex.py \
   --bib thesis/references.bib \
   --tex thesis/thesis.tex \
   --entry '@article{...}'
@@ -115,7 +115,7 @@ Main file `qualifying-exam/qualifying-exam.tex` contains `\bibliography{qualifyi
 ## Normalize existing file
 
 ```bash
-python3 .cursor/skills/import-bib-tex/scripts/import-bibtex.py \
+python3 .agents/skills/import-bib-tex/scripts/import-bibtex.py \
   --bib <bib> \
   --tex <tex> \
   --normalize-only
@@ -124,7 +124,7 @@ python3 .cursor/skills/import-bib-tex/scripts/import-bibtex.py \
 ## Script invocation
 
 ```bash
-python3 .cursor/skills/import-bib-tex/scripts/import-bibtex.py \
+python3 .agents/skills/import-bib-tex/scripts/import-bibtex.py \
   --bib <bib> \
   --tex <tex> \
   --entry '@article{...}'
