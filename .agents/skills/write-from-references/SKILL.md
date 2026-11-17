@@ -12,11 +12,11 @@ Drafts academic LaTeX from the user's brief and prior doctorate manuscripts. Sea
 
 Read-only sources for wording, structure, claims, and citation keys. Corpus search steps live in [reference.md](reference.md); PDF inventory in [Artifacts](../../AGENTS.md#artifacts).
 
-| Location                                                                 | Include              |
-| ------------------------------------------------------------------------ | -------------------- |
-| `qualifying-exam/`                                                       | Every `*.tex` file   |
-| `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/` | Every `*.tex` file   |
-| `artifacts/`                                                             | Every `*.pdf` file   |
+| Location           | Include            |
+| ------------------ | ------------------ |
+| `qualifying-exam/` | Every `*.tex` file |
+| `paper-2026-ieee/` | Every `*.tex` file |
+| `artifacts/`       | Every `*.pdf` file |
 
 Also read paired `.bib` files in the LaTeX subprojects.
 

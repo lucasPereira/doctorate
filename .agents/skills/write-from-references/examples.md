@@ -10,7 +10,7 @@ Invocation patterns and expected deliverables. Rules: [SKILL.md](SKILL.md).
 
 **Agent actions**
 
-1. Glob `qualifying-exam/**/*.tex`, `an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/**/*.tex`, `artifacts/**/*.pdf`.
+1. Glob `qualifying-exam/**/*.tex`, `paper-2026-ieee/**/*.tex`, `artifacts/**/*.pdf`.
 2. Grep the corpus for introduction, problema, objetivos, pipeline, Róża.
 3. Read hits across all files (e.g. `1-introduction.tex`, `qualifying-exam.tex`, `paper.tex`, `progress-seminar-2025.pdf`, `qualification-exam-2019.pdf`).
 4. Draft `\chapter{Introdução}` body in pt-BR with `\citeonline{}` / `\cite{}`.
@@ -22,7 +22,7 @@ Invocation patterns and expected deliverables. Rules: [SKILL.md](SKILL.md).
 ```text
 Sources consulted:
 - qualifying-exam/chapters/1-introduction.tex, qualifying-exam/qualifying-exam.tex
-- an-architecture-for-automatic-test-setup-code-refactoring-ieee-access/paper.tex
+- paper-2026-ieee/paper.tex
 - artifacts/progress-seminar-2025.pdf, artifacts/qualification-exam-2019.pdf
 Imported: greiler:2013, kumari:2018 (from bibliography.bib).
 Reference gaps: none.
