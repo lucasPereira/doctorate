@@ -13,3 +13,6 @@
 [submodule "an-architecture-for-automatic-test-setup-code-refactoring-sn-computer-science"]
 	path = an-architecture-for-automatic-test-setup-code-refactoring-sn-computer-science
 	url = git@github.com:lucasPereira/an-architecture-for-automatic-test-setup-code-refactoring-sn-computer-science.git
+[submodule "roza-edge"]
+	path = roza-edge
+	url = git@github.com:lucasPereira/roza-edge.git
